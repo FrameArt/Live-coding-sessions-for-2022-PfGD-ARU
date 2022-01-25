@@ -7,7 +7,7 @@ namespace _2ndtrimtest
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            //master
+            //master test
         }
     }
 }
