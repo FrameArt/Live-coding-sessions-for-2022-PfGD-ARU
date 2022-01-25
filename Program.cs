@@ -8,5 +8,10 @@ namespace _2ndtrimtest
         {
             Console.WriteLine("Hello World!");
         }
+
+        public void SpecialFunctionality()
+        {
+
+        }
     }
 }
