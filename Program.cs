@@ -9,5 +9,10 @@ namespace _2ndtrimtest
             Console.WriteLine("Hello World!");
             //master test 2 now doing the stream to show this off branching test
         }
+
+        public void SpecialFunctionality()
+        {
+            //very awesome code
+        }
     }
 }
