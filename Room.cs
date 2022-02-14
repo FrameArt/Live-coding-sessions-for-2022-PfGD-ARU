@@ -21,6 +21,18 @@ namespace _2ndtrimtest
         //visual representation
         public string roomLayout = "";
 
+        //content
+        public int enemyCount;
+        public Item loot;
+        public Item weapon;
+
+        public Room()
+        {
+            loot = new Item("UniqueItem", 99, 100, 5, ItemType.Item);
+            weapon = new Weapon(10 ,"UniqueWeapon", 99, 100, 5, ItemType.Item);
+            
+        }
+
         //imagine a lot more content
         public void RandomiseRoom(string name,int widthMin, int widthMax, int heightMin, int heightMax)
         {
@@ -64,9 +76,11 @@ namespace _2ndtrimtest
                 }
                 roomLayout += EOL;
             }
+
             Console.WriteLine(roomLayout);
-
+            Console.WriteLine(loot.StatPopUp());
+            Console.WriteLine(((Weapon)weapon).StatPopUp() );
+            Console.WriteLine();
         }
-
     }
 }
