@@ -13,13 +13,23 @@ namespace _2ndtrimtest
             this.damage = damage;
         }
 
-        public new string StatPopUp()
+        public override string StatPopUp()
         {
             string fullStats = "";
-            fullStats = base.StatPopUp();
+            //fullStats = base.StatPopUp();
             fullStats += "Damage: " + damage + "\n";
+
+            base.TakeDurabilityDamage();
+
             return fullStats;
+
+            
         }
 
+        public override void TakeDurabilityDamage()
+        {
+            base.TakeDurabilityDamage();
+
+        }
     }
 }

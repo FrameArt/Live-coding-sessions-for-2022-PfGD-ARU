@@ -8,45 +8,52 @@
     </TypeIdentifier>
   </Class>
   <Class Name="_2ndtrimtest.Room">
-    <Position X="4" Y="2.25" Width="1.5" />
+    <Position X="7.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAABAAAAIAgAQAQAAAAAAACABEAAAAAABgAAABAAA=</HashCode>
       <FileName>Room.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_2ndtrimtest.RoomManager">
-    <Position X="2.25" Y="1.25" Width="1.5" />
+    <Position X="5.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAIAAAAAAAAAAAAQCAAAAAAAABAAAAAAEAAAAAAAAA=</HashCode>
       <FileName>RoomManager.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_2ndtrimtest.Item">
-    <Position X="4" Y="6" Width="1.5" />
+    <Position X="7.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAFACAgEABAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQFACAgEAFAAAACAAA=</HashCode>
       <FileName>Item.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_2ndtrimtest.Weapon">
-    <Position X="1.75" Y="9.5" Width="1.5" />
+    <Position X="5.25" Y="9" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAABAAAACAAA=</HashCode>
       <FileName>Weapon.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_2ndtrimtest.Armour">
-    <Position X="4" Y="9.5" Width="1.5" />
+    <Position X="7" Y="9" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAI=</HashCode>
       <FileName>Armour.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_2ndtrimtest.Consumable">
-    <Position X="6.25" Y="9.5" Width="1.5" />
+    <Position X="8.75" Y="9" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAA=</HashCode>
       <FileName>Consumable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2ndtrimtest.Inventory">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAIAAAAAAAAAAAAAAAAAADAAAAAAABAAA=</HashCode>
+      <FileName>Inventory.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

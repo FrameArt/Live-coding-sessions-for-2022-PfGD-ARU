@@ -26,10 +26,12 @@ namespace _2ndtrimtest
         public Item loot;
         public Item weapon;
 
+
         public Room()
         {
-            loot = new Item("UniqueItem", 99, 100, 5, ItemType.Item);
+            //loot = new Item("UniqueItem", 99, 100, 5, ItemType.Item);
             weapon = new Weapon(10 ,"UniqueWeapon", 99, 100, 5, ItemType.Item);
+
             
         }
 

@@ -8,5 +8,9 @@ namespace _2ndtrimtest
     {
         public int defense;
 
+        public override string StatPopUp()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
