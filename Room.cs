@@ -9,6 +9,15 @@ namespace _2ndtrimtest
     /// </summary>
     class Room
     {
+        //procedural movement
+        public Room north;
+        public Room west;
+        public Room south;
+        public Room east;
+
+        public int xLoc;
+        public int yLoc;
+
         //Room properties
         public int width;
         public int height;
@@ -35,6 +44,12 @@ namespace _2ndtrimtest
             
         }
 
+        public Room(int xLoc, int yLoc)
+        {
+            this.xLoc = xLoc;
+            this.yLoc = yLoc;
+        }
+
         //imagine a lot more content
         public void RandomiseRoom(string name,int widthMin, int widthMax, int heightMin, int heightMax)
         {
@@ -46,7 +61,7 @@ namespace _2ndtrimtest
             this.height = seed.Next(heightMin, heightMax);
 
             //Console.WriteLine();
-            Console.WriteLine("name: " + this.name + " => " + "width: " + this.width + " || " + "height: " + this.height);
+            //Console.WriteLine("name: " + this.name + " => " + "width: " + this.width + " || " + "height: " + this.height);
 
             SetupRoomLayout();
         }
@@ -79,10 +94,10 @@ namespace _2ndtrimtest
                 roomLayout += EOL;
             }
 
-            Console.WriteLine(roomLayout);
-            Console.WriteLine(loot.StatPopUp());
-            Console.WriteLine(((Weapon)weapon).StatPopUp() );
-            Console.WriteLine();
+            //Console.WriteLine(roomLayout);
+            //Console.WriteLine(loot.StatPopUp());
+            //Console.WriteLine(((Weapon)weapon).StatPopUp() );
+            //Console.WriteLine();
         }
     }
 }

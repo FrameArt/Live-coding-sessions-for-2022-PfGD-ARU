@@ -4,20 +4,34 @@ namespace _2ndtrimtest
 {
     class Program
     {
-        static RoomManager roomManager;
+        
 
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            //master test 2 now doing the stream to show this off branching test
-            roomManager = new RoomManager();
-            //roomManager.RoomInit();
-        }
+            RoomManager roomManager;
+            Player player;
 
-        public void SpecialFunctionality()
-        {
-            //very awesome code
+
+            roomManager = new RoomManager();
+            player = new Player(roomManager.map[0][0]);
+           
+
+
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine();
+                Console.WriteLine(player.ShowMyLocation());
+                
+                Console.WriteLine(player.ShowOptions());
+                Console.WriteLine(player.Move(Console.ReadLine()));
+
+
+
+            }
+
+
         }
     }
 }

@@ -36,10 +36,15 @@ namespace _2ndtrimtest
             mainWeapon = (Weapon)inventory[9];
 
             inventory.RemoveAt(2);
-
+            Test();
         }
 
-        
+        public void Test()
+        {
+            //Console.WriteLine(roomManager.haveAccessToMe);
+            //Console.WriteLine(RoomManager.instance.haveAccessToMe);
+            
+        }
 
     }
 }
