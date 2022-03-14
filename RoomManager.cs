@@ -107,5 +107,14 @@ namespace _2ndtrimtest
                 }
             }
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        //call each room to draw itself based on their position
+        public void DrawMap()
+        {
+
+        }
     }
 }

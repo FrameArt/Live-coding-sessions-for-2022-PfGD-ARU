@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="_2ndtrimtest.Armour">
-    <Position X="3.25" Y="3.75" Width="1.5" />
+    <Position X="0.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAI=</HashCode>
       <FileName>Armour.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_2ndtrimtest.Consumable">
-    <Position X="5.5" Y="3.75" Width="1.5" />
+    <Position X="2.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAA=</HashCode>
       <FileName>Consumable.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_2ndtrimtest.Inventory">
-    <Position X="9.5" Y="0.5" Width="1.5" />
+    <Position X="11.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAIAAAIAAAAAAAAAAAAAAAAAADAAAACAABAAA=</HashCode>
       <FileName>Inventory.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_2ndtrimtest.Item">
-    <Position X="5.5" Y="0.5" Width="1.5" />
+    <Position X="2.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQFACAgEAFAAAACAAA=</HashCode>
       <FileName>Item.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="_2ndtrimtest.Program" Collapsed="true">
-    <Position X="12" Y="0.75" Width="1.5" />
+  <Class Name="_2ndtrimtest.Program">
+    <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
@@ -38,19 +38,19 @@
   <Class Name="_2ndtrimtest.Room">
     <Position X="13.25" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAABAAAAIAgAQAQAAAAAAACABEAAAAAABgAAABAAA=</HashCode>
+      <HashCode>AAEAABAAAAIAgAQAQAAQAAAACABEAAAAAABwBAABoAA=</HashCode>
       <FileName>Room.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_2ndtrimtest.RoomManager">
     <Position X="11.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAIAAAAAAAAAAAAQCAAAAAEAABAAAAAAEAAAAAAAAA=</HashCode>
+      <HashCode>AAAAEAAAAAAAAAAAACAAAAACQABAAAACAAAAAAABAAA=</HashCode>
       <FileName>RoomManager.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_2ndtrimtest.Weapon">
-    <Position X="7.75" Y="3.75" Width="1.5" />
+    <Position X="5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAABAAAACAAA=</HashCode>
       <FileName>Weapon.cs</FileName>
@@ -59,12 +59,12 @@
   <Class Name="_2ndtrimtest.Player">
     <Position X="9.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAgEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
       <FileName>Player.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="_2ndtrimtest.ItemType">
-    <Position X="7.5" Y="0.5" Width="1.5" />
+    <Position X="10" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAoAAAAEAAAAAAgAAAAAAAAAAAA=</HashCode>
       <FileName>Item.cs</FileName>

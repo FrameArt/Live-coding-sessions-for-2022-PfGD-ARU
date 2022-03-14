@@ -1,4 +1,14 @@
-﻿using System;
+﻿/*
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
+
+
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -9,7 +19,7 @@ namespace _2ndtrimtest
     /// </summary>
     class Room
     {
-        //procedural movement
+        #region Procedural Movement
         public Room north;
         public Room west;
         public Room south;
@@ -17,7 +27,9 @@ namespace _2ndtrimtest
 
         public int xLoc;
         public int yLoc;
+        #endregion
 
+        #region Room Properties
         //Room properties
         public int width;
         public int height;
@@ -29,13 +41,18 @@ namespace _2ndtrimtest
 
         //visual representation
         public string roomLayout = "";
+        #endregion
 
+        #region Content
         //content
         public int enemyCount;
         public Item loot;
         public Item weapon;
+        #endregion
 
-
+        /// <summary>
+        /// default constructor
+        /// </summary>
         public Room()
         {
             //loot = new Item("UniqueItem", 99, 100, 5, ItemType.Item);
@@ -50,18 +67,13 @@ namespace _2ndtrimtest
             this.yLoc = yLoc;
         }
 
-        //imagine a lot more content
         public void RandomiseRoom(string name,int widthMin, int widthMax, int heightMin, int heightMax)
         {
             Random seed = new Random();
 
             this.name = name;
-
             this.width = seed.Next(widthMin, widthMax);
             this.height = seed.Next(heightMin, heightMax);
-
-            //Console.WriteLine();
-            //Console.WriteLine("name: " + this.name + " => " + "width: " + this.width + " || " + "height: " + this.height);
 
             SetupRoomLayout();
         }
@@ -98,6 +110,11 @@ namespace _2ndtrimtest
             //Console.WriteLine(loot.StatPopUp());
             //Console.WriteLine(((Weapon)weapon).StatPopUp() );
             //Console.WriteLine();
+        }
+
+        public void DrawRoom()
+        {
+
         }
     }
 }

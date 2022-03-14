@@ -5,7 +5,7 @@ using System.Text;
 namespace _2ndtrimtest
 {
     /// <summary>
-    /// 
+    /// Defines Item Instance type to avoid overuse of casting during project
     /// </summary>
     public enum ItemType
     {
@@ -16,20 +16,21 @@ namespace _2ndtrimtest
     }
 
     /// <summary>
-    /// 
+    /// base class for any subsequent items for use in the inventory
     /// </summary>
     abstract class Item
     {
+        #region Variables
         public string name;
         public int value;
         public int durability;
         public int weight;
         public ItemType type;
         public int inventorySlot;
-
+        #endregion
 
         /// <summary>
-        /// 
+        /// default constructor
         /// </summary>
         public Item()
         {
@@ -37,7 +38,7 @@ namespace _2ndtrimtest
         }
 
         /// <summary>
-        /// 
+        /// custom constructor of the base class
         /// </summary>
         /// <param name="name"></param>
         /// <param name="value"></param>
@@ -54,24 +55,8 @@ namespace _2ndtrimtest
             this.type = type;
         }
 
-
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
         public abstract string StatPopUp();
-        //{
-        //    string fullStats = "";
-        //    fullStats += "Name: " + name + "\n";
-        //    fullStats += "Value: " + value + "\n";
-        //    fullStats += "Durability: " + durability + "\n";
-        //    fullStats += "Weight: " + weight + "\n";
-        //    fullStats += "ItemType: " + type.ToString() + "\n";
-        //    return fullStats;
-        //}
 
-        //not doing what the name suggest (used for showcase purposes delete afterwards)
         public virtual void TakeDurabilityDamage()
         {
             string fullStats = "";
@@ -87,7 +72,5 @@ namespace _2ndtrimtest
         {
             //contact iventory to destroy from list
         }
-                
-
     }
 }
